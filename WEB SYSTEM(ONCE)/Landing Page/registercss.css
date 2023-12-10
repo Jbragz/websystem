@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(to right, #f9c596 0%, #fc5d9d 100%)
+}
+
+.form-box {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 750px;
+  background: linear-gradient(to right, #fc5d9d 0%, #f9c596 100%)
+}
+
+.container {
+  padding: 16px;
+  background: linear-gradient(to right, #fc5d9d 0%, #f9c596 100%)
+}
+
+input[type=text], input[type=password], input[type=gender], select, input[type=tel] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus, input[type=gender]:focus, select:focus, 
+input[type=tel]:focus {
+  outline: none;
+  background: linear-gradient(to right, #f9c596 0%, #fc5d9d 100%)
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.registerbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+a {
+  color: dodgerblue;
+}
+
+.signin {
+  background-color: #d6d6d6;
+  text-align: center;
+  color: white;
+}
+
+footer {
+  background-color: white;
+  color: black;
+  padding: 25px 23px;
+  text-align: center;
+  font-size: 12px;
+}
+
+footer .course {
+  color: crimson;
+}
+
+footer .group {
+  color: crimson;
+}
